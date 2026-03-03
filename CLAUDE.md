@@ -1,53 +1,73 @@
 # CLAUDE.md — Project Instructions
 
-## Who This Is For
-This project belongs to Eirik Borgersrud Grønvold (@EBGronvold on GitHub).
-Eirik is a business graduate learning Claude Code and AI development with the goal
-of building a location-independent career offering AI/automation services to businesses.
+## Who I Am
+Eirik Borgersrud Grønvold (@EBGronvold on GitHub). Business graduate building
+a location-independent career selling AI-powered services. Goal: $5k+/month
+remote income from AI ad creatives, automations, and consulting. Based in
+Norway, planning to work from anywhere (Bali, Vietnam, etc.).
 
-## What This Project Is
-A structured learning environment for mastering Claude Code, APIs, MCPs, and
-AI-powered development. Each module builds on the previous one, progressing from
-fundamentals to client-ready skills.
+## How I Work
+- **I use voice-to-text (Wispr Flow).** My prompts will be conversational,
+  sometimes messy. Interpret the intent, not the exact words. If something is
+  ambiguous, ask — don't guess.
+- **I direct, Claude builds.** I describe what I want in plain language.
+  Claude writes the code, I review and iterate. I don't need to write code
+  from scratch — I need to understand what it does well enough to direct changes.
+- **I think in business outcomes.** When I say "build X", I mean build something
+  a client would pay for or that demonstrates a sellable skill. Not a toy.
+- **I iterate fast.** Show me a result, I'll tell you what to change. Don't
+  over-plan — build, show, adjust.
 
-## How Claude Should Behave in This Project
-- **Teach, don't just do.** Always explain *why* before showing *how*.
-- **Use simple language.** Eirik is technical-curious but comes from a business background, not CS.
-- **Be direct.** No fluff, no filler. Get to the point.
-- **Build real things.** Every concept should result in working code, not just theory.
-- **Flag business applications.** When teaching a technical concept, mention how it applies to client work or revenue generation.
-- **Progressive complexity.** Start simple, layer difficulty. Never skip foundations.
+## How Claude Should Behave
+- **Interpret loosely, build precisely.** My descriptions will be brief. Fill
+  in the gaps with good defaults, then let me course-correct.
+- **Be direct.** No fluff. Short answers unless I ask for detail.
+- **Don't over-teach.** Brief "why" only. Deep-dives only when I ask.
+- **Always build to sell.** Everything should look professional and be
+  portfolio-worthy. If I give vague design direction, ask for a reference
+  instead of guessing.
+- **Flag revenue angles.** When building, mention how it applies to client work.
+- **Remember context across sessions.** Use the memory directory to track my
+  preferences, project state, and patterns. I shouldn't have to repeat myself.
+- **Push back when I'm procrastinating.** If I'm planning instead of building,
+  over-researching instead of shipping, or going in circles — call it out.
 
-## Tech Stack & Tools
-- **OS:** macOS (Apple Silicon)
-- **Editor:** VSCode with Claude Code extension
-- **Runtime:** Node.js v24, npm
-- **Python:** 3.9
-- **Version control:** Git + GitHub (username: EBGronvold)
-- **GitHub CLI:** gh (authenticated)
-- **Package manager:** Homebrew
+## My Projects
+- **MeglerBio** — AI platform for Norwegian real estate agents (live on Lovable at meglerbio.io)
+- **AI Ad Agency** — AI-leveraged ad creative services (primary business direction)
+- **eirikgronvold.com** — Personal portfolio site (in progress)
+
+## Tech Stack
+- macOS (Apple Silicon)
+- VSCode with Claude Code extension
+- Node.js v24, npm
+- Python 3.9
+- Git + GitHub (EBGronvold), gh CLI authenticated
+- Homebrew
+- Anthropic API key in project .env files (never commit)
+- Lovable for hosted web apps
 
 ## Project Structure
 ```
 learning-claude/
-├── CLAUDE.md              # This file — Claude's instructions
-├── .gitignore             # Files git should ignore
-├── roadmap.md             # Learning roadmap and progress tracker
-├── 01-foundations/        # Git, terminal, Claude Code basics
-├── 02-apis/               # API fundamentals, Claude API, building integrations
-├── 03-mcps/               # Model Context Protocol — extending Claude's capabilities
-├── 04-web-development/    # HTML/CSS/JS, building sites and apps
-├── 05-automation/         # Scripts, workflows, business automations
-├── 06-client-projects/    # Real-world project templates and case studies
-└── 07-portfolio/          # Your portfolio pieces to show clients
+├── CLAUDE.md              # This file
+├── roadmap.md             # Roadmap and progress tracker
+├── 01-foundations/        # Done — CLI tools, Git basics
+├── 02-apis/               # Done — ad copy generator (Claude API)
+├── 03-mcps/               # When needed
+├── 04-web-development/    # Web apps and client tools
+├── 05-automation/         # Scripts, workflows, automations
+├── 06-client-projects/    # Real client work
+└── 07-portfolio/          # Portfolio pieces (eirikgronvold.com)
 ```
 
 ## Conventions
-- Use JavaScript/TypeScript for most projects (most versatile for web + automation)
-- Use Python when it's clearly the better tool (data, scripting, AI/ML)
-- Write clean, commented code — this doubles as a learning reference
-- Every module should have a README.md explaining what it covers
+- JavaScript for most projects, Python when clearly better
+- Clean, commented code
 - Commit often with clear messages
+- Every project gets a README.md
+- Norwegian for client-facing copy, English for code/docs
 
-## Current Phase
-Phase 1 — Foundations (just starting)
+## Current Focus
+Building the portfolio site (eirikgronvold.com) and sellable tool demos.
+Next: find a design reference, rebuild the site to match it, deploy.

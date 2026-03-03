@@ -1,0 +1,8 @@
+{
+  "name": "file-organizer",
+  "version": "1.0.0",
+  "description": "CLI tool that organizes files into folders by type",
+  "scripts": {
+    "organize": "node organize.js"
+  }
+}
